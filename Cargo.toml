@@ -1,6 +1,6 @@
 [package]
 name = "cgmath-std140"
-version = "0.1.0"
+version = "0.2.0"
 description = "Bridge crate that provides conversion from `cgmath` types to `std140` types."
 keywords = ["std140", "conversion"]
 authors = ["RSSchermer <roland0507@gmail.com>"]
