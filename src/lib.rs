@@ -1,8 +1,11 @@
 use cgmath::{Vector1, Vector2, Vector3, Vector4, Matrix2, Matrix3, Matrix4};
 
+/// Implemented for types that can be represented as [st140] values.
 trait AsStd140 {
+    /// The `std140` that this type converts to.
     type Std140: std140::ReprStd140;
 
+    /// Converts this value into an [st140] value.
     fn as_std140(&self) -> Self::Std140;
 }
 

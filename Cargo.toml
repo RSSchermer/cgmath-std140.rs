@@ -1,10 +1,14 @@
 [package]
 name = "cgmath-std140"
 version = "0.1.0"
+description = "Bridge crate that provides conversion from `cgmath` types to `std140` types."
+keywords = ["std140", "conversion"]
 authors = ["RSSchermer <roland0507@gmail.com>"]
+repository = "https://github.com/RSSchermer/cgmath-std140.rs"
+homepage = "https://github.com/RSSchermer/cgmath-std140.rs"
+license = "MIT"
+readme = "README.md"
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 cgmath = "0.17.0"
