@@ -11,5 +11,5 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-cgmath = "0.17.0"
-std140 = "0.2.0"
+cgmath = "0.18.0"
+std140 = "0.2.4"
